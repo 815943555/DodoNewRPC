@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
+
+<!--    表示是否允许 明文流量。明文流量是指未加密的数据传输（例如 HTTP）。当设置为 true 时，应用可以通过未加密的 HTTP 发送网络请求；如果设置为 false，应用将禁止使用未加密的 HTTP 请求，只允许通过 HTTPS 进行加密传输。-->
